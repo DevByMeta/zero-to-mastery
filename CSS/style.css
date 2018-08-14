@@ -1,0 +1,48 @@
+/*Selector {
+	Property: Value;
+}*/
+
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h2 + p {
+	color: #aa4139;
+	text-align: center;
+	border: 5px solid rgb(255, 176, 170);
+	cursor: pointer;
+}
+
+p {
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+.webtext:first-child {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgb(0, 0, 255, 0.2);
+}
+
+#div2 {
+	background: rgb(255, 0, 0, 0.2);
+}
